@@ -33,7 +33,7 @@
 }
 
 /* BASE */
-*{
+*{ 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -57,6 +57,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: var(--title-color)
 }
 img{
     /* display: block;
@@ -67,11 +68,31 @@ img{
 }
 
 /* nav */
-.conatiner{
+.container{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+header {
+    background-color: var(--first-color);
+}
+nav{
+    height: 44px;
+    display: flex;  /*수평*/
+    justify-content: space-between;
+    align-items: center;
+}
+nav i {
+    color: #fff;
+}
+nav a {
+    color: #fff;
+}
+.nav-list{
+    display: flex;
+    column-gap: 0.75rem; /*12px*/
+}
 /* breakpoints */
+
 /* 2K & 4K */
 
 /* mobile */
