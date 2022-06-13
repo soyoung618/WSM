@@ -81,7 +81,11 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav i {
+.nav-toggle {
+    display: none;
+    /*visibility: hidden; 보이지는 않지만 공간을 차지하고 있음*/
+}
+.nav-toggle i {
     color: #fff;
 }
 nav a {
