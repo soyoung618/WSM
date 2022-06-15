@@ -130,6 +130,7 @@ nav a {
         background-color: #2f2f2f;
         height: 0; /*overflow: hideen과 함께메뉴 안 보이게 하자*/
         overflow: hidden;
+        transition: 0.3s;
         
     }
     .nav-item{
